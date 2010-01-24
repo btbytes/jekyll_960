@@ -1,0 +1,11 @@
+@import url("960gs/960.css");
+
+/* http://www.levien.com/type/myfonts/inconsolata.html */
+@font-face {
+  font-family: "inconsolata";
+  src: url("/fonts/Inconsolata.otf.otf");
+}                                    
+
+pre,code{
+    font-family: "inconsolata", monospace;
+}
