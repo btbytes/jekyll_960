@@ -2,4 +2,19 @@
 layout: default
 title: Home
 ---
-Welcome.
+Welcome to your <a href="http://jekyllrb.com">Jekyll</a> + <a href="http://960.gs">960.gs</a> powered web site.
+
+To start with edit the <code>_config.yml</code> and change the default <code>author</code>, <code>url</code> and <code>email</code> fields to 
+to your own.
+
+Next, add a text file under <code>_posts</code>, say <code>2010-01-24-hello-world.html</code> and run <code>jekyll</code>. The blog post
+should show up below.
+
+<section>
+<h1>Blog Posts</h1>
+  <ul class=posts>
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</section>
