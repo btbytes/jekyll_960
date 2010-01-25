@@ -7,7 +7,7 @@ author: A. U. Thor #XXX
 email: a.u.thor@example.com #XXX
 analytics_id: #Google Analytics ID : UA-xxx-xxx  
 
-auto: true
+auto: false
 lsi: false
 pygments: false
 server_port: 4000
