@@ -88,6 +88,7 @@ pre,code
 
 header, footer
 {
+  display: block;
   padding: 1em 0;
 }
 
@@ -104,7 +105,6 @@ header h1 a, header h1 a:visited
 }
 
 footer{
-  border: solid 2px #900;
   margin-top:1em;
   border-top: solid 3px #ccc;
 }
