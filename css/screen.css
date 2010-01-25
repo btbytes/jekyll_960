@@ -108,3 +108,8 @@ footer{
   margin-top:1em;
   border-top: solid 3px #ccc;
 }
+
+ul.posts
+{
+  list-style-type:none;
+}
