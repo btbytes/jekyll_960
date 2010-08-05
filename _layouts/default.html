@@ -1,53 +1,53 @@
 <!doctype html>
-<html lang=en>
+<html lang="en">
 <head>
-  <meta charset=utf-8>
+  <meta charset="utf-8">
   <title>{% if page.title %} {{ page.title }} | {% endif %} {{site.title}}</title>
   <!--[if IE]>
-    <script src=/js/html5.js /> 
+    <script src="/js/html5.js" />
   <![endif]-->
-  <link rel="shortcut icon" type=image/x-icon href=/favicon.ico />
-  <link rel=stylesheet type=text/css media="screen, projection" charset=utf-8 href=/css/screen.css />
-  <link rel=stylesheet type=text/css media="screen, projection" charset=utf-8 href=/css/pygments.css />
-  <link rel=alternate type="application/rss+xml" title="RSS" href="/atom.xml" /> 
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="stylesheet" type="text/css" media="screen, projection" charset="utf-8" href="/css/screen.css" />
+  <link rel="stylesheet" type="text/css" media="screen, projection" charset="utf-8" href="/css/pygments.css" />
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml" />
 </head>
 <body>
-<div id=wrap class=container_12>
+<div id="wrap" class="container_12">
 <header class="grid_12 alpha omega">
 {% if site.title %}
   <h1><a href="{{site.url}}">{{site.title}}</a></h1>
 {% endif %}
 </header>
-<div class=clear></div>
+<div class="clear"></div>
 <section class="grid_8 alpha omega">
 {{ content }}
 </section>
-<div class=clear></div>
+<div class="clear"></div>
 <footer>
 <div class="grid_4 alpha">
-  <p> 
+  <p>
     {% if site.author %}{{site.author}} {% endif %}<br/>
      {% if site.email %}{{site.email}} {% endif %}<br/>
-  </p> 
-</div> 
+  </p>
+</div>
 <div class="grid_4">
-  <p> 
-    <a href="http://twitter.com/">twitter.com</a><br /> 
-  </p> 
-</div> 
-<div class="grid_4 omega"> 
-  <a href="{{site.url}}/atom.xml" class="noul"> 
-    <img src="/img/rss.png" alt="Subscribe to RSS Feed" /> 
-  </a> 
-</div> 
-<script type="text/javascript"> 
+  <p>
+    <a href="http://twitter.com/">twitter.com</a><br />
+  </p>
+</div>
+<div class="grid_4 omega">
+  <a href="{{site.url}}/atom.xml" class="noul">
+    <img src="/img/rss.png" alt="Subscribe to RSS Feed" />
+  </a>
+</div>
+<script type="text/javascript">
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script> 
-<script type="text/javascript"> 
+</script>
+<script type="text/javascript">
 var pageTracker = _gat._getTracker("{{site.analytics_id}}");
 pageTracker._trackPageview();
-</script> 
+</script>
 </footer>
 <div class="clear"></div>
 </div><!-- .container_12 -->
